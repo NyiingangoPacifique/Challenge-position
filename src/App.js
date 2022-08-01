@@ -25,19 +25,29 @@ function App() {
             sanctus est Lorem ipsum dolor sit.
             </p>
         </div>
-        <div className='body_img'>
-            <div className='a'>
-              <div className='b'>         
-                <img src={right_img} alt="right image" className='leftimg' />
-                <p className='upper'>lorem ipsum dolor sit amet, consetetur</p>
-              </div> 
-              <div className='c'>
-                <Path className='pathimg' />
-              </div>  
-              <div className='d'>
-                <img src={left_img} alt="left image" className='rightimg' />
-              </div>  
+        <div class="flex-container">
+          <div class="flex-item-left">
+            <div>
+              <img src={right_img} alt="right image" className='rightpic' />
+              <p className='upper'>lorem ipsum dolor sit amet, consetetur</p>
             </div>
+          </div>
+          <div class="flex-item-right">
+            <div class="flex-container">
+              <div class="flex-item-left">
+              <div>
+                <Path className='pathimg' xs={{width:'40vh'}} />
+              </div>
+              </div>
+              <div class="flex-item-right">
+                <div>
+                  <img src={left_img} alt="right image" className='leftpic' />
+                </div>
+              </div>
+            </div>
+            <div>
+            </div>
+          </div>
         </div>
         <div className='under-text'>
                   
