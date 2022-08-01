@@ -75,14 +75,14 @@ margin:auto;
 .pathimg {
   position: absolute;
   top: 12%;
-  left: 100%;
+  right: -68%;
   width: 30vh;
   height: auto;
   border: 2px solid var(--unnamed-color-ffffff);
   opacity: 1;
   }
 .leftpic{
-  width: 75%;
+  width: 80%;
   position: absolute;
   left: 45%;
 
