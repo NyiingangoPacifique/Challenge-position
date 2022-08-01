@@ -2,7 +2,7 @@ name: Dev deploy
 on:
   push:
     branches:
-      - develop
+      - challenge
   workflow_dispatch:
 jobs:
   build:
